@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Travel Triangle</title>
+	<meta name="description" content="Want to Travel?">
+	<meta name="author" content="Ashima Singla">
+	<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,user-scalable=0">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<section class="travel-wrapper">
+		<div class="travel-background">
+			<img src="assets/background.jpg" alt="background" class="background" />
+			<h1 class="travel-background-text">kerla Tour Package</h1>
+		</div>
+		<main class="travel-container">
+			<section class="filters">
+				<h2>Filters</h2>
+				<div class="filter-subtitle">
+					<span>Looking to select filters</span>
+					<button id="filter-modal" class="filter-button"> click here</button> 
+				</div>
+				<div>
+					<p>Category</p>
+					<ul class="filters-conatiner" id="filter-modal-fix">
+						<li>
+							<input type="checkbox" id="type-1" name="scales" class="filter" data-id="type" data-value="Honeymoon">
+							<label for="type-1">HoneyMoon</label>
+						</li>
+						<li>
+							<input type="checkbox" id="type-2" name="scales" class="filter" data-id="type" data-value="Family">
+							<label for="type-2">Family</label>
+						</li>
+						<li>
+							<input type="checkbox" id="type-3" name="scales" class="filter" data-id="type" data-value="Friends">
+							<label for="type-3">Friends</label>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<p>Duration</p>
+					<ul class="filters-conatiner">
+						<li>
+							<input type="checkbox" id="duration1" name="scales" class="filter" data-id="duration" data-value="1 to 3">
+							<label for="duration1">1 to 3</label>
+						</li>
+						<li>
+							<input type="checkbox" id="scales" name="duration2" class="filter" data-id="duration" data-value="4 to 6">
+							<label for="duration2">4 to 6</label>
+						</li>
+						<li>
+							<input type="checkbox" id="scales" name="duration3" class="filter" data-id="duration" data-value="7 to 9">
+							<label for="duration3">7 to 9</label>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="travel-info-container">
+				<section>
+					<h3>Showing <span>362</span> kerla packages</h3>
+					<ul class="travel-info">
+						<li class="travel-info-block">
+							<img src="/assets/image1.jpeg" class="travel-info-image"/>
+							<div class="travel-info-description">
+								<div class="travel-info-description-left">
+									<h4 class="travel-info-description-left--heading">Magical HoneyMoon Package</h4>
+									<p class="travel-info-description-left__content">
+										<span class="travel-info-description-left__content--primary">4 days and 3 nights</span>
+										<span class="travel-info-description-left__content--secondary">|</span>
+										<span class="travel-info-description-left__content--secondary">Customisable</span>
+									</p>
+								</div>
+								<div class="travel-info-description-right">
+									<p class="travel-info-description-right--side">Starting form </p>
+									<p class="travel-info-description-right--main">Rs.13,1999/-</p>
+									<p class="travel-info-description-right--side"> per person on twin sharing</p>
+								</div>
+							</div>
+						</li>
+						<li class="travel-info-block">
+							<img src="/assets/image2.jpeg" class="travel-info-image"/>
+							<div class="travel-info-description">
+								<div class="travel-info-description-left">
+									<h4 class="travel-info-description-left--heading">Magical HoneyMoon Package</h4>
+									<p class="travel-info-description-left__content">
+										<span class="travel-info-description-left__content--primary">4 days and 3 nights</span>
+										<span class="travel-info-description-left__content--secondary">|</span>
+										<span class="travel-info-description-left__content--secondary">Customisable</span>
+									</p>
+								</div>
+								<div class="travel-info-description-right">
+									<p class="travel-info-description-right--side">Starting form </p>
+									<p class="travel-info-description-right--main">Rs.13,1999/-</p>
+									<p class="travel-info-description-right--side"> per person on twin sharing</p>
+								</div>
+							</div>
+						</li>
+						<li class="travel-info-block">
+							<img src="/assets/image3.jpeg" class="travel-info-image"/>
+							<div class="travel-info-description">
+								<div class="travel-info-description-left">
+									<h4 class="travel-info-description-left--heading">Magical HoneyMoon Package</h4>
+									<p class="travel-info-description-left__content">
+										<span class="travel-info-description-left__content--primary">4 days and 3 nights</span>
+										<span class="travel-info-description-left__content--secondary">|</span>
+										<span class="travel-info-description-left__content--secondary">Customisable</span>
+									</p>
+								</div>
+								<div class="travel-info-description-right">
+									<p class="travel-info-description-right--side">Starting form </p>
+									<p class="travel-info-description-right--main">Rs.13,1999/-</p>
+									<p class="travel-info-description-right--side"> per person on twin sharing</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<div>
+	
+					</div>
+				</section>
+				
+			</section>
+		</main>
+	</section>
+	<!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+	<button id="myBtn">Open Modal</button> -->
+	<div id="myModal" class="modal hidden">
+		<div class="modal-content">
+			<div class="modal-head">
+				<h2>Filters</h2>
+				<button id="close" class="close">X</button>
+			</div>
+			
+			<div>
+				<p>Category</p>
+				<ul class="filters-conatiner" id="filter-modal-fix">
+					<li>
+						<input type="checkbox" id="type-1" name="scales" class="filter" data-id="type" data-value="Honeymoon">
+						<label for="type-1">HoneyMoon</label>
+					</li>
+					<li>
+						<input type="checkbox" id="type-2" name="scales" class="filter" data-id="type" data-value="Family">
+						<label for="type-2">Family</label>
+					</li>
+					<li>
+						<input type="checkbox" id="type-3" name="scales" class="filter" data-id="type" data-value="Friends">
+						<label for="type-3">Friends</label>
+					</li>
+				</ul>
+			</div>
+			<div>
+				<p>Duration</p>
+				<ul class="filters-conatiner">
+					<li>
+						<input type="checkbox" id="duration1" name="scales" class="filter" data-id="duration" data-value="1 to 3">
+						<label for="duration1">1 to 3</label>
+					</li>
+					<li>
+						<input type="checkbox" id="scales" name="duration2" class="filter" data-id="duration" data-value="4 to 6">
+						<label for="duration2">4 to 6</label>
+					</li>
+					<li>
+						<input type="checkbox" id="scales" name="duration3" class="filter" data-id="duration" data-value="7 to 9">
+						<label for="duration3">7 to 9</label>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>
